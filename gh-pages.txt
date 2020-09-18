@@ -1,0 +1,11 @@
+1. в файле json добавить после dependencies:
+	"homepage": "https://Agzamova.github.io/название репозитория",
+2. в файле json добавить в scripts: 
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
+3. в терминале yarn add gh-pages
+4. в терминале npm run build
+5. создать branch в репозитории gh-pages
+6. установить имя ветки в качестве source page в настройкаах репозитория и копируем адрес (он сверху)
+7. в репозитории в мастер настройки вставить скопированный адрес
+8. в терминале yarn run deploy
