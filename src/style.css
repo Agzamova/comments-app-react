@@ -42,7 +42,7 @@ main {
 .form__field {
 	display: flex;
 	border: none;
-	flex-direction: column;
+	flex-direction: column; 
 }
 
 .form__title {
